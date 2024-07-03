@@ -1,3 +1,5 @@
+This was a game I made for my Grade 12 Computer Science ISU. It is inspired by Bloons Tower Defense 5, and plays similarly albeit with a couple modifications.
+
 KNOWN BUGS:
 Sometimes, the 4-0 Fire Tower upgrade's laser doesn't disappear at the end of a round. Not sure why that happens.
 Also, there seems to be lag when you start a new game after one has already been played. I'm guessing
