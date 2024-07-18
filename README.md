@@ -6,5 +6,13 @@ Also, there seems to be lag when you start a new game after one has already been
 that's due to some sort of memory leak but I'm not sure about that either as I call the Java garbage collector
 every time a new game is started.
 
-HOW TO RUN: Ensure you have Java and a JDK (latest or it might not work) installed on your computer and
-then go to ISU\Game.java to run the program
+HOW TO RUN: If you are running it from the command line, navigate to the directory where the repository is located.
+You can check that you are in the correct directory by doing "pwd" and the last part of the path should say "Moose-Tower-Defense".
+
+Then, run the following in your repository directory
+<pre>
+javac ISU\Game.java
+java ISU.Game
+</pre>
+
+If you are running it in Visual Studio Code (the IDE I used to develop this program), ensure that you have "Microsoft's Extension Pack for Java" extension installed (https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) and "Debugger for Java" installed (https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug).
