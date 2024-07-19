@@ -5,9 +5,10 @@ Sometimes, the 4-0 Fire Tower upgrade's laser doesn't disappear at the end of a 
 Also, there seems to be lag when you start a new game after one has already been played. I'm guessing
 that's due to some sort of memory leak but I'm not sure about that either as I call the Java garbage collector
 every time a new game is started.
+The game is not compatable with Linux for unknown reasons. You must use Windows if you want to test the game.
 
 HOW TO RUN: If you are running it from the command line, navigate to the directory where the repository is located.
-You can check that you are in the correct directory by doing "pwd" and the last part of the path should say "Moose-Tower-Defense".
+You can check that you are in the correct directory by doing "pwd" in Windows Power Shell or doing "cd" in Windows Command Line and the last part of the path should say "Moose-Tower-Defense".
 
 Then, run the following in your repository directory
 <pre>
